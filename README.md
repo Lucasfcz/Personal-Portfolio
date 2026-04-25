@@ -1,34 +1,16 @@
-# 💻 Portfólio Pessoal | Lucas Cabral
+# React + Vite
 
-Este repositório contém o código-fonte do meu portfólio pessoal. Ele foi desenvolvido para centralizar meus projetos, habilidades técnicas e minha jornada acadêmica no IFPE.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-> **Status:** Ativo e em constante atualização. 🚀
+Currently, two official plugins are available:
 
-## 🌐 Visualize Online
-Você pode acessar o portfólio através do link: (https://lucasfcz.github.io/Personal-Portfolio/)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🛠️ Tecnologias Utilizadas
-Para construir esta interface moderna e responsiva, utilizei:
-* **HTML5** e **CSS3** (Flexbox, Grid, Variáveis CSS).
-* **FontAwesome** (Ícones).
-* **Google Fonts** (Tipografia Inter e Poppins).
+## React Compiler
 
-## 🎯 Destaques do Portfólio
-* **Backend Focus:** Seção dedicada a Java, Spring Boot e PostgreSQL.
-* **Projetos:** Integração com o repositório da [Fluxbank API](https://github.com/Lucasfcz/FluxbankAPI).
-* **Soft Skills:** Destaque para o estudo contínuo de **Inglês (Nível B1)**.
-* **Mobile Friendly:** Design totalmente responsivo para dispositivos móveis.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 📈 Evolução Recente
-Recentemente, atualizei o portfólio para refletir minha transição de projetos Java puro (Console) para arquiteturas web com **Spring Boot** e bancos de dados relacionais (**PostgreSQL**).
+## Expanding the ESLint configuration
 
----
-
-## 🌎 About Me (English)
-I am an Analysis and Systems Development student at IFPE. My current focus is on building scalable APIs using the **Java/Spring** ecosystem and learning how to deploy them in **Cloud** environments. 
-
-I'm also currently improving my English skills (B1 Level) to better communicate and read technical documentation.
-
-## 📬 Contato
-* **LinkedIn:** [Lucas Cabral](https://www.linkedin.com/in/lucas-cabral-2432633a6/)
-* **Email:** lucasfc080@gmail.com
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
